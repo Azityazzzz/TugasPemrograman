@@ -34,7 +34,7 @@ def pembelian():
             if item["jumlah"] >= jumlah_beli:
                 total_harga = item["harga"] * jumlah_beli
                 print(f"Total harga pembelian: {total_harga}")
-                print("Terimakasi")
+                print("Terimakasih")
                 print("=============================")
                 item["jumlah"] -= jumlah_beli
                 return
@@ -64,5 +64,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print("Terimakasi")
+    print("Silakan melakukan pembayaran ")
+    print("Terimakasih")
     print("=============================")
